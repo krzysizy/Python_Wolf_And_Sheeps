@@ -1,0 +1,514 @@
+DEBUG:root:debug
+DEBUG:root:setup(1510.0) called, returned[<__main__.Sheep object at 0x000001E7048D61D0>, <__main__.Sheep object at 0x000001E7048D62B0>, <__main__.Sheep object at 0x000001E7048D60F0>, <__main__.Sheep object at 0x000001E7048D6358>, <__main__.Sheep object at 0x000001E7048D62E8>, <__main__.Sheep object at 0x000001E7048D6320>, <__main__.Sheep object at 0x000001E7048D6390>, <__main__.Sheep object at 0x000001E7048D63C8>, <__main__.Sheep object at 0x000001E7048D6400>, <__main__.Sheep object at 0x000001E7048D6438>, <__main__.Sheep object at 0x000001E7048D6470>, <__main__.Sheep object at 0x000001E7048D64A8>, <__main__.Sheep object at 0x000001E7048D64E0>, <__main__.Sheep object at 0x000001E7048D6518>, <__main__.Sheep object at 0x000001E7048D6550>]
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D61D0><__main__.Wolf object at 0x000001E7048D6588>) called, returned7.799987776502297
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D62B0><__main__.Wolf object at 0x000001E7048D6588>) called, returned7.199912396470252
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D60F0><__main__.Wolf object at 0x000001E7048D6588>) called, returned9.084187950231309
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6358><__main__.Wolf object at 0x000001E7048D6588>) called, returned5.879204905336883
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D62E8><__main__.Wolf object at 0x000001E7048D6588>) called, returned6.833513382117133
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6320><__main__.Wolf object at 0x000001E7048D6588>) called, returned5.0385616749382045
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6390><__main__.Wolf object at 0x000001E7048D6588>) called, returned10.487711444013682
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D63C8><__main__.Wolf object at 0x000001E7048D6588>) called, returned10.188444786672031
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6400><__main__.Wolf object at 0x000001E7048D6588>) called, returned6.695630200651161
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6438><__main__.Wolf object at 0x000001E7048D6588>) called, returned10.616471304776306
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6470><__main__.Wolf object at 0x000001E7048D6588>) called, returned7.128591447536356
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D64A8><__main__.Wolf object at 0x000001E7048D6588>) called, returned5.6788380939978405
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D64E0><__main__.Wolf object at 0x000001E7048D6588>) called, returned0.9658939714970792
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6518><__main__.Wolf object at 0x000001E7048D6588>) called, returned6.958846308894681
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6550><__main__.Wolf object at 0x000001E7048D6588>) called, returned9.409776540249126
+INFO:root:Turn number: 1 Wolf position: -0.9608669453871759, 0.09841685545026557 Number of living sheep:15 Dead sheep in this round: 12
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D61D0><__main__.Wolf object at 0x000001E7048D6588>) called, returned8.81212293823736
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D62B0><__main__.Wolf object at 0x000001E7048D6588>) called, returned7.242180912961833
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D60F0><__main__.Wolf object at 0x000001E7048D6588>) called, returned10.091741115398863
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6358><__main__.Wolf object at 0x000001E7048D6588>) called, returned4.820601669366256
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D62E8><__main__.Wolf object at 0x000001E7048D6588>) called, returned5.7065674520934415
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6320><__main__.Wolf object at 0x000001E7048D6588>) called, returned3.92538012538987
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6390><__main__.Wolf object at 0x000001E7048D6588>) called, returned9.833108951252095
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D63C8><__main__.Wolf object at 0x000001E7048D6588>) called, returned10.370997499521842
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6400><__main__.Wolf object at 0x000001E7048D6588>) called, returned7.956896637352562
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6438><__main__.Wolf object at 0x000001E7048D6588>) called, returned10.221714037822862
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6470><__main__.Wolf object at 0x000001E7048D6588>) called, returned6.343397033113301
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D64A8><__main__.Wolf object at 0x000001E7048D6588>) called, returned5.3730031307654
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6518><__main__.Wolf object at 0x000001E7048D6588>) called, returned5.920862680561768
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6550><__main__.Wolf object at 0x000001E7048D6588>) called, returned9.178815358478122
+DEBUG:root:wolf_move(1<__main__.Sheep object at 0x000001E7048D6320><__main__.Wolf object at 0x000001E7048D6588>) called
+INFO:root:Turn number: 2 Wolf position: -1.900241261518839, 0.44131027065704675 Number of living sheep:14 Dead sheep in this round: none
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D61D0><__main__.Wolf object at 0x000001E7048D6588>) called, returned9.677275282336812
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D62B0><__main__.Wolf object at 0x000001E7048D6588>) called, returned8.190414799454572
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D60F0><__main__.Wolf object at 0x000001E7048D6588>) called, returned11.011249110821858
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6358><__main__.Wolf object at 0x000001E7048D6588>) called, returned3.34750158171871
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D62E8><__main__.Wolf object at 0x000001E7048D6588>) called, returned5.109160885529271
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6320><__main__.Wolf object at 0x000001E7048D6588>) called, returned3.132242401219776
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6390><__main__.Wolf object at 0x000001E7048D6588>) called, returned9.596263423014198
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D63C8><__main__.Wolf object at 0x000001E7048D6588>) called, returned10.824265119774825
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6400><__main__.Wolf object at 0x000001E7048D6588>) called, returned9.178161693998819
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6438><__main__.Wolf object at 0x000001E7048D6588>) called, returned9.008538705101145
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6470><__main__.Wolf object at 0x000001E7048D6588>) called, returned6.0659844755166095
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D64A8><__main__.Wolf object at 0x000001E7048D6588>) called, returned4.84440111961903
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6518><__main__.Wolf object at 0x000001E7048D6588>) called, returned4.979881364716271
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6550><__main__.Wolf object at 0x000001E7048D6588>) called, returned8.863440408172165
+DEBUG:root:wolf_move(1<__main__.Sheep object at 0x000001E7048D6320><__main__.Wolf object at 0x000001E7048D6588>) called
+INFO:root:Turn number: 3 Wolf position: -2.7775766023734025, 0.9211880672757348 Number of living sheep:14 Dead sheep in this round: none
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D61D0><__main__.Wolf object at 0x000001E7048D6588>) called, returned10.434167002134716
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D62B0><__main__.Wolf object at 0x000001E7048D6588>) called, returned8.988840867048317
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D60F0><__main__.Wolf object at 0x000001E7048D6588>) called, returned11.437281166086589
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6358><__main__.Wolf object at 0x000001E7048D6588>) called, returned2.4821735472822177
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D62E8><__main__.Wolf object at 0x000001E7048D6588>) called, returned3.7955379660603232
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6320><__main__.Wolf object at 0x000001E7048D6588>) called, returned1.9424834290683637
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6390><__main__.Wolf object at 0x000001E7048D6588>) called, returned9.377772274392518
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D63C8><__main__.Wolf object at 0x000001E7048D6588>) called, returned12.139006064946056
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6400><__main__.Wolf object at 0x000001E7048D6588>) called, returned9.403544047464193
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6438><__main__.Wolf object at 0x000001E7048D6588>) called, returned8.398154627436469
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6470><__main__.Wolf object at 0x000001E7048D6588>) called, returned6.430790709661288
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D64A8><__main__.Wolf object at 0x000001E7048D6588>) called, returned4.23732321058446
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6518><__main__.Wolf object at 0x000001E7048D6588>) called, returned4.816012227279901
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6550><__main__.Wolf object at 0x000001E7048D6588>) called, returned8.575973231015572
+DEBUG:root:wolf_move(1<__main__.Sheep object at 0x000001E7048D6320><__main__.Wolf object at 0x000001E7048D6588>) called
+INFO:root:Turn number: 4 Wolf position: -3.740617823659861, 1.190542120713002 Number of living sheep:14 Dead sheep in this round: none
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D61D0><__main__.Wolf object at 0x000001E7048D6588>) called, returned11.599473498939414
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D62B0><__main__.Wolf object at 0x000001E7048D6588>) called, returned10.040691038139874
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D60F0><__main__.Wolf object at 0x000001E7048D6588>) called, returned12.368847630823334
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6358><__main__.Wolf object at 0x000001E7048D6588>) called, returned1.6206463520275936
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D62E8><__main__.Wolf object at 0x000001E7048D6588>) called, returned2.573689537936916
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6320><__main__.Wolf object at 0x000001E7048D6588>) called, returned1.4303584888554017
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6390><__main__.Wolf object at 0x000001E7048D6588>) called, returned8.426339449954321
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D63C8><__main__.Wolf object at 0x000001E7048D6588>) called, returned13.350893887064956
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6400><__main__.Wolf object at 0x000001E7048D6588>) called, returned10.768189898142856
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6438><__main__.Wolf object at 0x000001E7048D6588>) called, returned7.198344841107314
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6470><__main__.Wolf object at 0x000001E7048D6588>) called, returned6.609696014538194
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D64A8><__main__.Wolf object at 0x000001E7048D6588>) called, returned3.7731791439543985
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6518><__main__.Wolf object at 0x000001E7048D6588>) called, returned4.540426124947679
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6550><__main__.Wolf object at 0x000001E7048D6588>) called, returned8.688994892380462
+DEBUG:root:wolf_move(1<__main__.Sheep object at 0x000001E7048D6320><__main__.Wolf object at 0x000001E7048D6588>) called
+INFO:root:Turn number: 5 Wolf position: -4.72474201597942, 1.3680233143403169 Number of living sheep:14 Dead sheep in this round: none
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D61D0><__main__.Wolf object at 0x000001E7048D6588>) called, returned11.964729043955748
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D62B0><__main__.Wolf object at 0x000001E7048D6588>) called, returned10.392616542779464
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D60F0><__main__.Wolf object at 0x000001E7048D6588>) called, returned13.863227438132688
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6358><__main__.Wolf object at 0x000001E7048D6588>) called, returned1.1065698527195285
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D62E8><__main__.Wolf object at 0x000001E7048D6588>) called, returned1.7472538132012059
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6320><__main__.Wolf object at 0x000001E7048D6588>) called, returned0.9266793561866981
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6390><__main__.Wolf object at 0x000001E7048D6588>) called, returned7.5044245172201665
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D63C8><__main__.Wolf object at 0x000001E7048D6588>) called, returned14.498938652410407
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6400><__main__.Wolf object at 0x000001E7048D6588>) called, returned11.21092459189777
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6438><__main__.Wolf object at 0x000001E7048D6588>) called, returned6.076425652260372
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6470><__main__.Wolf object at 0x000001E7048D6588>) called, returned7.21504896622816
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D64A8><__main__.Wolf object at 0x000001E7048D6588>) called, returned3.1699104951376356
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6518><__main__.Wolf object at 0x000001E7048D6588>) called, returned4.204024415350021
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6550><__main__.Wolf object at 0x000001E7048D6588>) called, returned8.941213625292406
+INFO:root:Turn number: 6 Wolf position: -5.648268216232108, 1.4444038526300211 Number of living sheep:14 Dead sheep in this round: 5
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D61D0><__main__.Wolf object at 0x000001E7048D6588>) called, returned13.251168214323577
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D62B0><__main__.Wolf object at 0x000001E7048D6588>) called, returned11.113193732906804
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D60F0><__main__.Wolf object at 0x000001E7048D6588>) called, returned14.847264491998013
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6358><__main__.Wolf object at 0x000001E7048D6588>) called, returned0.903505644688882
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D62E8><__main__.Wolf object at 0x000001E7048D6588>) called, returned2.2586354399241726
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6390><__main__.Wolf object at 0x000001E7048D6588>) called, returned7.280410581650067
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D63C8><__main__.Wolf object at 0x000001E7048D6588>) called, returned14.855673909622855
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6400><__main__.Wolf object at 0x000001E7048D6588>) called, returned11.615650610685671
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6438><__main__.Wolf object at 0x000001E7048D6588>) called, returned6.004663003265777
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6470><__main__.Wolf object at 0x000001E7048D6588>) called, returned6.855318937121387
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D64A8><__main__.Wolf object at 0x000001E7048D6588>) called, returned3.084364880566441
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6518><__main__.Wolf object at 0x000001E7048D6588>) called, returned3.461033470784587
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6550><__main__.Wolf object at 0x000001E7048D6588>) called, returned9.92819716925895
+INFO:root:Turn number: 7 Wolf position: -5.723338411219466, 2.344785391650692 Number of living sheep:13 Dead sheep in this round: 3
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D61D0><__main__.Wolf object at 0x000001E7048D6588>) called, returned12.549526525202362
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D62B0><__main__.Wolf object at 0x000001E7048D6588>) called, returned12.374612206777334
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D60F0><__main__.Wolf object at 0x000001E7048D6588>) called, returned15.557269782656414
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D62E8><__main__.Wolf object at 0x000001E7048D6588>) called, returned1.9091289755745404
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6390><__main__.Wolf object at 0x000001E7048D6588>) called, returned7.6659061019380825
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D63C8><__main__.Wolf object at 0x000001E7048D6588>) called, returned15.907532104934436
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6400><__main__.Wolf object at 0x000001E7048D6588>) called, returned12.077809765134761
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6438><__main__.Wolf object at 0x000001E7048D6588>) called, returned4.951240587685147
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6470><__main__.Wolf object at 0x000001E7048D6588>) called, returned7.838401224314028
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D64A8><__main__.Wolf object at 0x000001E7048D6588>) called, returned1.6947278681591045
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6518><__main__.Wolf object at 0x000001E7048D6588>) called, returned4.135414236907457
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6550><__main__.Wolf object at 0x000001E7048D6588>) called, returned9.749732908092968
+DEBUG:root:wolf_move(1<__main__.Sheep object at 0x000001E7048D64A8><__main__.Wolf object at 0x000001E7048D6588>) called
+INFO:root:Turn number: 8 Wolf position: -5.594857352071843, 3.336497354591699 Number of living sheep:12 Dead sheep in this round: none
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D61D0><__main__.Wolf object at 0x000001E7048D6588>) called, returned11.67007935413162
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D62B0><__main__.Wolf object at 0x000001E7048D6588>) called, returned13.661773254779003
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D60F0><__main__.Wolf object at 0x000001E7048D6588>) called, returned15.77514800581088
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D62E8><__main__.Wolf object at 0x000001E7048D6588>) called, returned1.40877429751529
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6390><__main__.Wolf object at 0x000001E7048D6588>) called, returned8.151113179676347
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D63C8><__main__.Wolf object at 0x000001E7048D6588>) called, returned16.248337465533705
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6400><__main__.Wolf object at 0x000001E7048D6588>) called, returned11.919742573690307
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6438><__main__.Wolf object at 0x000001E7048D6588>) called, returned3.6791703840810346
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6470><__main__.Wolf object at 0x000001E7048D6588>) called, returned8.884779565531591
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D64A8><__main__.Wolf object at 0x000001E7048D6588>) called, returned0.9065904164049745
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6518><__main__.Wolf object at 0x000001E7048D6588>) called, returned5.058040260263109
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6550><__main__.Wolf object at 0x000001E7048D6588>) called, returned9.365077078381455
+INFO:root:Turn number: 9 Wolf position: -5.005597979751392, 4.025467292433586 Number of living sheep:12 Dead sheep in this round: 11
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D61D0><__main__.Wolf object at 0x000001E7048D6588>) called, returned10.852772274620426
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D62B0><__main__.Wolf object at 0x000001E7048D6588>) called, returned13.903421419296606
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D60F0><__main__.Wolf object at 0x000001E7048D6588>) called, returned15.264622401826346
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D62E8><__main__.Wolf object at 0x000001E7048D6588>) called, returned1.0734136654325614
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6390><__main__.Wolf object at 0x000001E7048D6588>) called, returned8.790182003920856
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D63C8><__main__.Wolf object at 0x000001E7048D6588>) called, returned16.03708901414781
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6400><__main__.Wolf object at 0x000001E7048D6588>) called, returned10.822681817226083
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6438><__main__.Wolf object at 0x000001E7048D6588>) called, returned3.2037645402269144
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6470><__main__.Wolf object at 0x000001E7048D6588>) called, returned9.956555050602958
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6518><__main__.Wolf object at 0x000001E7048D6588>) called, returned5.3355280424055715
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6550><__main__.Wolf object at 0x000001E7048D6588>) called, returned8.925466676343957
+DEBUG:root:wolf_move(1<__main__.Sheep object at 0x000001E7048D62E8><__main__.Wolf object at 0x000001E7048D6588>) called
+INFO:root:Turn number: 10 Wolf position: -4.97077523610343, 5.024860796777509 Number of living sheep:11 Dead sheep in this round: none
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D61D0><__main__.Wolf object at 0x000001E7048D6588>) called, returned11.20710509324969
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D62B0><__main__.Wolf object at 0x000001E7048D6588>) called, returned14.699313803047906
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D60F0><__main__.Wolf object at 0x000001E7048D6588>) called, returned15.3874422043038
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D62E8><__main__.Wolf object at 0x000001E7048D6588>) called, returned0.4266385190168183
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6390><__main__.Wolf object at 0x000001E7048D6588>) called, returned9.24425060785455
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D63C8><__main__.Wolf object at 0x000001E7048D6588>) called, returned17.243147467743498
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6400><__main__.Wolf object at 0x000001E7048D6588>) called, returned10.919949984041688
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6438><__main__.Wolf object at 0x000001E7048D6588>) called, returned2.295270137897247
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6470><__main__.Wolf object at 0x000001E7048D6588>) called, returned10.898153795749256
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6518><__main__.Wolf object at 0x000001E7048D6588>) called, returned5.831807035994514
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6550><__main__.Wolf object at 0x000001E7048D6588>) called, returned8.241685788127908
+INFO:root:Turn number: 11 Wolf position: -4.968218770851815, 4.598229937140889 Number of living sheep:11 Dead sheep in this round: 4
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D61D0><__main__.Wolf object at 0x000001E7048D6588>) called, returned10.741400297318563
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D62B0><__main__.Wolf object at 0x000001E7048D6588>) called, returned14.434935975683373
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D60F0><__main__.Wolf object at 0x000001E7048D6588>) called, returned14.774895491100267
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6390><__main__.Wolf object at 0x000001E7048D6588>) called, returned8.636314171580569
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D63C8><__main__.Wolf object at 0x000001E7048D6588>) called, returned16.47814832459
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6400><__main__.Wolf object at 0x000001E7048D6588>) called, returned10.362592338885793
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6438><__main__.Wolf object at 0x000001E7048D6588>) called, returned2.797450196053874
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6470><__main__.Wolf object at 0x000001E7048D6588>) called, returned10.971171297060575
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6518><__main__.Wolf object at 0x000001E7048D6588>) called, returned4.926692944351059
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6550><__main__.Wolf object at 0x000001E7048D6588>) called, returned8.212998672079145
+DEBUG:root:wolf_move(1<__main__.Sheep object at 0x000001E7048D6438><__main__.Wolf object at 0x000001E7048D6588>) called
+INFO:root:Turn number: 12 Wolf position: -5.722248293318513, 5.255070465160167 Number of living sheep:10 Dead sheep in this round: none
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D61D0><__main__.Wolf object at 0x000001E7048D6588>) called, returned10.947016155986288
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D62B0><__main__.Wolf object at 0x000001E7048D6588>) called, returned15.138183742091107
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D60F0><__main__.Wolf object at 0x000001E7048D6588>) called, returned15.230838095964929
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6390><__main__.Wolf object at 0x000001E7048D6588>) called, returned9.407794112915106
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D63C8><__main__.Wolf object at 0x000001E7048D6588>) called, returned17.161556677036025
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6400><__main__.Wolf object at 0x000001E7048D6588>) called, returned11.30299580936565
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6438><__main__.Wolf object at 0x000001E7048D6588>) called, returned1.4579083284987207
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6470><__main__.Wolf object at 0x000001E7048D6588>) called, returned12.195653079145892
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6518><__main__.Wolf object at 0x000001E7048D6588>) called, returned5.9631812458065
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6550><__main__.Wolf object at 0x000001E7048D6588>) called, returned8.247704636104514
+DEBUG:root:wolf_move(1<__main__.Sheep object at 0x000001E7048D6438><__main__.Wolf object at 0x000001E7048D6588>) called
+INFO:root:Turn number: 13 Wolf position: -6.3089316233115245, 6.064886907515045 Number of living sheep:10 Dead sheep in this round: none
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D61D0><__main__.Wolf object at 0x000001E7048D6588>) called, returned11.525072695423834
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D62B0><__main__.Wolf object at 0x000001E7048D6588>) called, returned15.622189783687295
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D60F0><__main__.Wolf object at 0x000001E7048D6588>) called, returned16.26649017943333
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6390><__main__.Wolf object at 0x000001E7048D6588>) called, returned9.528067410263244
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D63C8><__main__.Wolf object at 0x000001E7048D6588>) called, returned17.880078077112948
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6400><__main__.Wolf object at 0x000001E7048D6588>) called, returned11.943961965006899
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6438><__main__.Wolf object at 0x000001E7048D6588>) called, returned0.8534208928211542
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6470><__main__.Wolf object at 0x000001E7048D6588>) called, returned13.169986227065895
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6518><__main__.Wolf object at 0x000001E7048D6588>) called, returned6.7672160878828524
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6550><__main__.Wolf object at 0x000001E7048D6588>) called, returned8.572274169257364
+INFO:root:Turn number: 14 Wolf position: -7.077578806306688, 6.4357086010245474 Number of living sheep:10 Dead sheep in this round: 9
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D61D0><__main__.Wolf object at 0x000001E7048D6588>) called, returned12.295893990885725
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D62B0><__main__.Wolf object at 0x000001E7048D6588>) called, returned16.062693794961618
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D60F0><__main__.Wolf object at 0x000001E7048D6588>) called, returned16.663683391933592
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6390><__main__.Wolf object at 0x000001E7048D6588>) called, returned9.820591366943594
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D63C8><__main__.Wolf object at 0x000001E7048D6588>) called, returned19.031365792047733
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6400><__main__.Wolf object at 0x000001E7048D6588>) called, returned12.66593468244061
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6470><__main__.Wolf object at 0x000001E7048D6588>) called, returned13.217738859606197
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6518><__main__.Wolf object at 0x000001E7048D6588>) called, returned7.197876146025434
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6550><__main__.Wolf object at 0x000001E7048D6588>) called, returned9.288876998365382
+DEBUG:root:wolf_move(1<__main__.Sheep object at 0x000001E7048D6518><__main__.Wolf object at 0x000001E7048D6588>) called
+INFO:root:Turn number: 15 Wolf position: -6.942221202951053, 5.444911790768368 Number of living sheep:9 Dead sheep in this round: none
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D61D0><__main__.Wolf object at 0x000001E7048D6588>) called, returned11.726167012972246
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D62B0><__main__.Wolf object at 0x000001E7048D6588>) called, returned14.622732916654567
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D60F0><__main__.Wolf object at 0x000001E7048D6588>) called, returned16.34074021201503
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6390><__main__.Wolf object at 0x000001E7048D6588>) called, returned9.377459414891565
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D63C8><__main__.Wolf object at 0x000001E7048D6588>) called, returned18.4346160228896
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6400><__main__.Wolf object at 0x000001E7048D6588>) called, returned11.86922343541624
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6470><__main__.Wolf object at 0x000001E7048D6588>) called, returned12.367124087149046
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6518><__main__.Wolf object at 0x000001E7048D6588>) called, returned6.285109257800707
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6550><__main__.Wolf object at 0x000001E7048D6588>) called, returned9.17069157600143
+DEBUG:root:wolf_move(1<__main__.Sheep object at 0x000001E7048D6518><__main__.Wolf object at 0x000001E7048D6588>) called
+INFO:root:Turn number: 16 Wolf position: -6.72918916069033, 4.467866577397858 Number of living sheep:9 Dead sheep in this round: none
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D61D0><__main__.Wolf object at 0x000001E7048D6588>) called, returned11.768981176631018
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D62B0><__main__.Wolf object at 0x000001E7048D6588>) called, returned13.836776525509533
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D60F0><__main__.Wolf object at 0x000001E7048D6588>) called, returned15.613603175104718
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6390><__main__.Wolf object at 0x000001E7048D6588>) called, returned8.025474525244388
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D63C8><__main__.Wolf object at 0x000001E7048D6588>) called, returned17.225127944252627
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6400><__main__.Wolf object at 0x000001E7048D6588>) called, returned11.063346981033853
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6470><__main__.Wolf object at 0x000001E7048D6588>) called, returned11.227211490747028
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6518><__main__.Wolf object at 0x000001E7048D6588>) called, returned5.4137119876893225
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6550><__main__.Wolf object at 0x000001E7048D6588>) called, returned9.170629139361305
+DEBUG:root:wolf_move(1<__main__.Sheep object at 0x000001E7048D6518><__main__.Wolf object at 0x000001E7048D6588>) called
+INFO:root:Turn number: 17 Wolf position: -6.428859622942921, 3.5140310733635265 Number of living sheep:9 Dead sheep in this round: none
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D61D0><__main__.Wolf object at 0x000001E7048D6588>) called, returned11.26841931689582
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D62B0><__main__.Wolf object at 0x000001E7048D6588>) called, returned13.299629695597105
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D60F0><__main__.Wolf object at 0x000001E7048D6588>) called, returned14.565437754618001
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6390><__main__.Wolf object at 0x000001E7048D6588>) called, returned6.79111392636619
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D63C8><__main__.Wolf object at 0x000001E7048D6588>) called, returned16.681831002273867
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6400><__main__.Wolf object at 0x000001E7048D6588>) called, returned10.24851346979421
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6470><__main__.Wolf object at 0x000001E7048D6588>) called, returned10.37172152279889
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6518><__main__.Wolf object at 0x000001E7048D6588>) called, returned4.290138159693636
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6550><__main__.Wolf object at 0x000001E7048D6588>) called, returned8.993381255008439
+DEBUG:root:wolf_move(1<__main__.Sheep object at 0x000001E7048D6518><__main__.Wolf object at 0x000001E7048D6588>) called
+INFO:root:Turn number: 18 Wolf position: -6.23642570816385, 2.5327211384078057 Number of living sheep:9 Dead sheep in this round: none
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D61D0><__main__.Wolf object at 0x000001E7048D6588>) called, returned11.664917757482236
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D62B0><__main__.Wolf object at 0x000001E7048D6588>) called, returned11.876347788774268
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D60F0><__main__.Wolf object at 0x000001E7048D6588>) called, returned14.253425089722
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6390><__main__.Wolf object at 0x000001E7048D6588>) called, returned6.4501799192707985
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D63C8><__main__.Wolf object at 0x000001E7048D6588>) called, returned16.1818799213184
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6400><__main__.Wolf object at 0x000001E7048D6588>) called, returned10.629655370841782
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6470><__main__.Wolf object at 0x000001E7048D6588>) called, returned9.552693727898818
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6518><__main__.Wolf object at 0x000001E7048D6588>) called, returned3.2313890114992914
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6550><__main__.Wolf object at 0x000001E7048D6588>) called, returned8.67516454156862
+DEBUG:root:wolf_move(1<__main__.Sheep object at 0x000001E7048D6518><__main__.Wolf object at 0x000001E7048D6588>) called
+INFO:root:Turn number: 19 Wolf position: -6.195225417589089, 1.5335702308585228 Number of living sheep:9 Dead sheep in this round: none
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D61D0><__main__.Wolf object at 0x000001E7048D6588>) called, returned11.679049019264752
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D62B0><__main__.Wolf object at 0x000001E7048D6588>) called, returned10.530785289021656
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D60F0><__main__.Wolf object at 0x000001E7048D6588>) called, returned14.097425112497735
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6390><__main__.Wolf object at 0x000001E7048D6588>) called, returned6.038921037843628
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D63C8><__main__.Wolf object at 0x000001E7048D6588>) called, returned15.695931854767363
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6400><__main__.Wolf object at 0x000001E7048D6588>) called, returned11.245037890017423
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6470><__main__.Wolf object at 0x000001E7048D6588>) called, returned8.828935596598486
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6518><__main__.Wolf object at 0x000001E7048D6588>) called, returned2.731042159428301
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6550><__main__.Wolf object at 0x000001E7048D6588>) called, returned9.34243382575976
+DEBUG:root:wolf_move(1<__main__.Sheep object at 0x000001E7048D6518><__main__.Wolf object at 0x000001E7048D6588>) called
+INFO:root:Turn number: 20 Wolf position: -6.161562855719908, 0.534136975494062 Number of living sheep:9 Dead sheep in this round: none
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D61D0><__main__.Wolf object at 0x000001E7048D6588>) called, returned12.510528206799993
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D62B0><__main__.Wolf object at 0x000001E7048D6588>) called, returned10.081963453794907
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D60F0><__main__.Wolf object at 0x000001E7048D6588>) called, returned13.8179286303477
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6390><__main__.Wolf object at 0x000001E7048D6588>) called, returned5.550751985357999
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D63C8><__main__.Wolf object at 0x000001E7048D6588>) called, returned14.571801218039752
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6400><__main__.Wolf object at 0x000001E7048D6588>) called, returned11.937528832965915
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6470><__main__.Wolf object at 0x000001E7048D6588>) called, returned7.503245891866697
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6518><__main__.Wolf object at 0x000001E7048D6588>) called, returned1.8179049126695581
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6550><__main__.Wolf object at 0x000001E7048D6588>) called, returned9.590147604314298
+DEBUG:root:wolf_move(1<__main__.Sheep object at 0x000001E7048D6518><__main__.Wolf object at 0x000001E7048D6588>) called
+INFO:root:Turn number: 21 Wolf position: -5.85446686302021, -0.41754156858885816 Number of living sheep:9 Dead sheep in this round: none
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D61D0><__main__.Wolf object at 0x000001E7048D6588>) called, returned13.262056229292735
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D62B0><__main__.Wolf object at 0x000001E7048D6588>) called, returned9.53682252019645
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D60F0><__main__.Wolf object at 0x000001E7048D6588>) called, returned13.468686237277273
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6390><__main__.Wolf object at 0x000001E7048D6588>) called, returned5.513981184941611
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D63C8><__main__.Wolf object at 0x000001E7048D6588>) called, returned14.035007658968453
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6400><__main__.Wolf object at 0x000001E7048D6588>) called, returned12.132377479427817
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6470><__main__.Wolf object at 0x000001E7048D6588>) called, returned6.957606241933762
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6518><__main__.Wolf object at 0x000001E7048D6588>) called, returned1.0817318370368951
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6550><__main__.Wolf object at 0x000001E7048D6588>) called, returned10.313833631834278
+DEBUG:root:wolf_move(1<__main__.Sheep object at 0x000001E7048D6518><__main__.Wolf object at 0x000001E7048D6588>) called
+INFO:root:Turn number: 22 Wolf position: -5.160047696114802, -1.1371122882783116 Number of living sheep:9 Dead sheep in this round: none
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D61D0><__main__.Wolf object at 0x000001E7048D6588>) called, returned12.89155395887944
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D62B0><__main__.Wolf object at 0x000001E7048D6588>) called, returned8.820595864093749
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D60F0><__main__.Wolf object at 0x000001E7048D6588>) called, returned12.759790504049592
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6390><__main__.Wolf object at 0x000001E7048D6588>) called, returned6.2018075951914495
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D63C8><__main__.Wolf object at 0x000001E7048D6588>) called, returned13.394261073267254
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6400><__main__.Wolf object at 0x000001E7048D6588>) called, returned11.588455066426388
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6470><__main__.Wolf object at 0x000001E7048D6588>) called, returned5.755343590344599
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6518><__main__.Wolf object at 0x000001E7048D6588>) called, returned0.5616866831104377
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6550><__main__.Wolf object at 0x000001E7048D6588>) called, returned10.621804530982532
+INFO:root:Turn number: 23 Wolf position: -5.103291541929992, -1.6959241250764912 Number of living sheep:9 Dead sheep in this round: 13
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D61D0><__main__.Wolf object at 0x000001E7048D6588>) called, returned12.937600000660591
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D62B0><__main__.Wolf object at 0x000001E7048D6588>) called, returned8.054083839703946
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D60F0><__main__.Wolf object at 0x000001E7048D6588>) called, returned13.176920771076311
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6390><__main__.Wolf object at 0x000001E7048D6588>) called, returned6.230742914416838
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D63C8><__main__.Wolf object at 0x000001E7048D6588>) called, returned13.312618398625032
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6400><__main__.Wolf object at 0x000001E7048D6588>) called, returned11.562563286399035
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6470><__main__.Wolf object at 0x000001E7048D6588>) called, returned5.019993105632928
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6550><__main__.Wolf object at 0x000001E7048D6588>) called, returned11.331958629182745
+DEBUG:root:wolf_move(1<__main__.Sheep object at 0x000001E7048D6470><__main__.Wolf object at 0x000001E7048D6588>) called
+INFO:root:Turn number: 24 Wolf position: -4.7270314062517595, -2.622438188811844 Number of living sheep:8 Dead sheep in this round: none
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D61D0><__main__.Wolf object at 0x000001E7048D6588>) called, returned13.735908306423813
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D62B0><__main__.Wolf object at 0x000001E7048D6588>) called, returned7.342225700556534
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D60F0><__main__.Wolf object at 0x000001E7048D6588>) called, returned13.311067726269455
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6390><__main__.Wolf object at 0x000001E7048D6588>) called, returned6.43406764997684
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D63C8><__main__.Wolf object at 0x000001E7048D6588>) called, returned12.789329529816342
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6400><__main__.Wolf object at 0x000001E7048D6588>) called, returned11.930511454689942
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6470><__main__.Wolf object at 0x000001E7048D6588>) called, returned4.487195640689666
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6550><__main__.Wolf object at 0x000001E7048D6588>) called, returned11.395478251813438
+DEBUG:root:wolf_move(1<__main__.Sheep object at 0x000001E7048D6470><__main__.Wolf object at 0x000001E7048D6588>) called
+INFO:root:Turn number: 25 Wolf position: -4.389947117428879, -3.563912661237291 Number of living sheep:8 Dead sheep in this round: none
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D61D0><__main__.Wolf object at 0x000001E7048D6588>) called, returned14.710976568081225
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D62B0><__main__.Wolf object at 0x000001E7048D6588>) called, returned6.092318387472946
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D60F0><__main__.Wolf object at 0x000001E7048D6588>) called, returned12.556470260811459
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6390><__main__.Wolf object at 0x000001E7048D6588>) called, returned6.046159871385753
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D63C8><__main__.Wolf object at 0x000001E7048D6588>) called, returned11.544609388000946
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6400><__main__.Wolf object at 0x000001E7048D6588>) called, returned11.898025467238606
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6470><__main__.Wolf object at 0x000001E7048D6588>) called, returned3.6859208210395855
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6550><__main__.Wolf object at 0x000001E7048D6588>) called, returned12.224946531946506
+DEBUG:root:wolf_move(1<__main__.Sheep object at 0x000001E7048D6470><__main__.Wolf object at 0x000001E7048D6588>) called
+INFO:root:Turn number: 26 Wolf position: -3.9353853012975257, -4.45462785439129 Number of living sheep:8 Dead sheep in this round: none
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D61D0><__main__.Wolf object at 0x000001E7048D6588>) called, returned15.663077944121998
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D62B0><__main__.Wolf object at 0x000001E7048D6588>) called, returned4.7000533138184775
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D60F0><__main__.Wolf object at 0x000001E7048D6588>) called, returned11.762299021087541
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6390><__main__.Wolf object at 0x000001E7048D6588>) called, returned6.909756058745115
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D63C8><__main__.Wolf object at 0x000001E7048D6588>) called, returned10.34645308865422
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6400><__main__.Wolf object at 0x000001E7048D6588>) called, returned12.410681975419047
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6470><__main__.Wolf object at 0x000001E7048D6588>) called, returned2.9470472855539205
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6550><__main__.Wolf object at 0x000001E7048D6588>) called, returned12.262967549315595
+DEBUG:root:wolf_move(1<__main__.Sheep object at 0x000001E7048D6470><__main__.Wolf object at 0x000001E7048D6588>) called
+INFO:root:Turn number: 27 Wolf position: -3.3514391071415974, -5.266420218441856 Number of living sheep:8 Dead sheep in this round: none
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D61D0><__main__.Wolf object at 0x000001E7048D6588>) called, returned16.33719509218743
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D62B0><__main__.Wolf object at 0x000001E7048D6588>) called, returned3.3300079026843497
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D60F0><__main__.Wolf object at 0x000001E7048D6588>) called, returned11.54955634272451
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6390><__main__.Wolf object at 0x000001E7048D6588>) called, returned7.021544418702132
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D63C8><__main__.Wolf object at 0x000001E7048D6588>) called, returned9.151333307169415
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6400><__main__.Wolf object at 0x000001E7048D6588>) called, returned12.906237387360083
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6470><__main__.Wolf object at 0x000001E7048D6588>) called, returned1.7041192094281574
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6550><__main__.Wolf object at 0x000001E7048D6588>) called, returned12.193714060145089
+DEBUG:root:wolf_move(1<__main__.Sheep object at 0x000001E7048D6470><__main__.Wolf object at 0x000001E7048D6588>) called
+INFO:root:Turn number: 28 Wolf position: -2.977656070886412, -6.193936386391425 Number of living sheep:8 Dead sheep in this round: none
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D61D0><__main__.Wolf object at 0x000001E7048D6588>) called, returned17.220621344930407
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D62B0><__main__.Wolf object at 0x000001E7048D6588>) called, returned2.7635072489450088
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D60F0><__main__.Wolf object at 0x000001E7048D6588>) called, returned11.347371198370848
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6390><__main__.Wolf object at 0x000001E7048D6588>) called, returned7.043615985257267
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D63C8><__main__.Wolf object at 0x000001E7048D6588>) called, returned8.840609282051247
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6400><__main__.Wolf object at 0x000001E7048D6588>) called, returned12.954118626791121
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6470><__main__.Wolf object at 0x000001E7048D6588>) called, returned0.3044698838592219
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6550><__main__.Wolf object at 0x000001E7048D6588>) called, returned12.364895620688962
+INFO:root:Turn number: 29 Wolf position: -2.714468254900755, -6.347018337299911 Number of living sheep:8 Dead sheep in this round: 10
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D61D0><__main__.Wolf object at 0x000001E7048D6588>) called, returned17.463958415600647
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D62B0><__main__.Wolf object at 0x000001E7048D6588>) called, returned2.8515252458114024
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D60F0><__main__.Wolf object at 0x000001E7048D6588>) called, returned11.624075714949468
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6390><__main__.Wolf object at 0x000001E7048D6588>) called, returned7.233526959109956
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D63C8><__main__.Wolf object at 0x000001E7048D6588>) called, returned8.753787756048851
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6400><__main__.Wolf object at 0x000001E7048D6588>) called, returned13.227460011211235
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6550><__main__.Wolf object at 0x000001E7048D6588>) called, returned12.810581741333463
+DEBUG:root:wolf_move(1<__main__.Sheep object at 0x000001E7048D62B0><__main__.Wolf object at 0x000001E7048D6588>) called
+INFO:root:Turn number: 30 Wolf position: -2.1150162147036378, -7.147429014079971 Number of living sheep:7 Dead sheep in this round: none
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D61D0><__main__.Wolf object at 0x000001E7048D6588>) called, returned17.728828184807462
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D62B0><__main__.Wolf object at 0x000001E7048D6588>) called, returned2.188160488162395
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D60F0><__main__.Wolf object at 0x000001E7048D6588>) called, returned11.856165500292251
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6390><__main__.Wolf object at 0x000001E7048D6588>) called, returned8.130944393408383
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D63C8><__main__.Wolf object at 0x000001E7048D6588>) called, returned7.413537639296251
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6400><__main__.Wolf object at 0x000001E7048D6588>) called, returned13.832214163645784
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6550><__main__.Wolf object at 0x000001E7048D6588>) called, returned13.733062055970466
+DEBUG:root:wolf_move(1<__main__.Sheep object at 0x000001E7048D62B0><__main__.Wolf object at 0x000001E7048D6588>) called
+INFO:root:Turn number: 31 Wolf position: -1.3792838062320358, -7.824701354519602 Number of living sheep:7 Dead sheep in this round: none
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D61D0><__main__.Wolf object at 0x000001E7048D6588>) called, returned17.624815646746494
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D62B0><__main__.Wolf object at 0x000001E7048D6588>) called, returned1.5924489075750008
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D60F0><__main__.Wolf object at 0x000001E7048D6588>) called, returned11.095355549363594
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6390><__main__.Wolf object at 0x000001E7048D6588>) called, returned8.885537369380542
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D63C8><__main__.Wolf object at 0x000001E7048D6588>) called, returned6.928572336072337
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6400><__main__.Wolf object at 0x000001E7048D6588>) called, returned14.238133785410492
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6550><__main__.Wolf object at 0x000001E7048D6588>) called, returned13.948684718720038
+DEBUG:root:wolf_move(1<__main__.Sheep object at 0x000001E7048D62B0><__main__.Wolf object at 0x000001E7048D6588>) called
+INFO:root:Turn number: 32 Wolf position: -0.5163561662494687, -8.33002886035529 Number of living sheep:7 Dead sheep in this round: none
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D61D0><__main__.Wolf object at 0x000001E7048D6588>) called, returned17.350412843799678
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D62B0><__main__.Wolf object at 0x000001E7048D6588>) called, returned1.0546261165506747
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D60F0><__main__.Wolf object at 0x000001E7048D6588>) called, returned10.263535636454092
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6390><__main__.Wolf object at 0x000001E7048D6588>) called, returned9.712553511819046
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D63C8><__main__.Wolf object at 0x000001E7048D6588>) called, returned5.794148982446178
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6400><__main__.Wolf object at 0x000001E7048D6588>) called, returned13.938020810619442
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6550><__main__.Wolf object at 0x000001E7048D6588>) called, returned14.333928712545202
+DEBUG:root:wolf_move(1<__main__.Sheep object at 0x000001E7048D62B0><__main__.Wolf object at 0x000001E7048D6588>) called
+INFO:root:Turn number: 33 Wolf position: 0.44250548315797367, -8.613902665585076 Number of living sheep:7 Dead sheep in this round: none
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D61D0><__main__.Wolf object at 0x000001E7048D6588>) called, returned17.244525977329445
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D62B0><__main__.Wolf object at 0x000001E7048D6588>) called, returned0.5181611102539193
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D60F0><__main__.Wolf object at 0x000001E7048D6588>) called, returned9.356504507181565
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6390><__main__.Wolf object at 0x000001E7048D6588>) called, returned10.862894622090495
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D63C8><__main__.Wolf object at 0x000001E7048D6588>) called, returned5.279675398182334
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6400><__main__.Wolf object at 0x000001E7048D6588>) called, returned13.970961204484945
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6550><__main__.Wolf object at 0x000001E7048D6588>) called, returned14.305701289082572
+INFO:root:Turn number: 34 Wolf position: 0.49488437137447683, -9.129409589155243 Number of living sheep:7 Dead sheep in this round: 1
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D61D0><__main__.Wolf object at 0x000001E7048D6588>) called, returned17.848414454866912
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D60F0><__main__.Wolf object at 0x000001E7048D6588>) called, returned9.359641561499053
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6390><__main__.Wolf object at 0x000001E7048D6588>) called, returned11.55589918969826
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D63C8><__main__.Wolf object at 0x000001E7048D6588>) called, returned5.0889396199240915
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6400><__main__.Wolf object at 0x000001E7048D6588>) called, returned14.196371173129803
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6550><__main__.Wolf object at 0x000001E7048D6588>) called, returned15.301532575018124
+DEBUG:root:wolf_move(1<__main__.Sheep object at 0x000001E7048D63C8><__main__.Wolf object at 0x000001E7048D6588>) called
+INFO:root:Turn number: 35 Wolf position: 1.4940934916625856, -9.169173064016777 Number of living sheep:6 Dead sheep in this round: none
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D61D0><__main__.Wolf object at 0x000001E7048D6588>) called, returned17.186596228926092
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D60F0><__main__.Wolf object at 0x000001E7048D6588>) called, returned9.18905078393947
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6390><__main__.Wolf object at 0x000001E7048D6588>) called, returned12.68131736107016
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D63C8><__main__.Wolf object at 0x000001E7048D6588>) called, returned4.139084157536804
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6400><__main__.Wolf object at 0x000001E7048D6588>) called, returned14.323883697243998
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6550><__main__.Wolf object at 0x000001E7048D6588>) called, returned14.730318098151288
+DEBUG:root:wolf_move(1<__main__.Sheep object at 0x000001E7048D63C8><__main__.Wolf object at 0x000001E7048D6588>) called
+INFO:root:Turn number: 36 Wolf position: 2.481197306185404, -9.329254478785955 Number of living sheep:6 Dead sheep in this round: none
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D61D0><__main__.Wolf object at 0x000001E7048D6588>) called, returned17.260039787195286
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D60F0><__main__.Wolf object at 0x000001E7048D6588>) called, returned8.60416608766425
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6390><__main__.Wolf object at 0x000001E7048D6588>) called, returned13.497489323916733
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D63C8><__main__.Wolf object at 0x000001E7048D6588>) called, returned3.0986029618330484
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6400><__main__.Wolf object at 0x000001E7048D6588>) called, returned14.049571120619023
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6550><__main__.Wolf object at 0x000001E7048D6588>) called, returned14.341889245836628
+DEBUG:root:wolf_move(1<__main__.Sheep object at 0x000001E7048D63C8><__main__.Wolf object at 0x000001E7048D6588>) called
+INFO:root:Turn number: 37 Wolf position: 3.4811969783536894, -9.330064209186691 Number of living sheep:6 Dead sheep in this round: none
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D61D0><__main__.Wolf object at 0x000001E7048D6588>) called, returned16.6335698435459
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D60F0><__main__.Wolf object at 0x000001E7048D6588>) called, returned8.408664232894575
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6390><__main__.Wolf object at 0x000001E7048D6588>) called, returned14.604719533582573
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D63C8><__main__.Wolf object at 0x000001E7048D6588>) called, returned2.5986028294564147
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6400><__main__.Wolf object at 0x000001E7048D6588>) called, returned13.35461092870506
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6550><__main__.Wolf object at 0x000001E7048D6588>) called, returned14.397000308101017
+DEBUG:root:wolf_move(1<__main__.Sheep object at 0x000001E7048D63C8><__main__.Wolf object at 0x000001E7048D6588>) called
+INFO:root:Turn number: 38 Wolf position: 4.481196764541879, -9.330718138520565 Number of living sheep:6 Dead sheep in this round: none
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D61D0><__main__.Wolf object at 0x000001E7048D6588>) called, returned16.54525008538368
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D60F0><__main__.Wolf object at 0x000001E7048D6588>) called, returned7.61360341045841
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6390><__main__.Wolf object at 0x000001E7048D6588>) called, returned16.03206367241917
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D63C8><__main__.Wolf object at 0x000001E7048D6588>) called, returned1.6752839698479332
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6400><__main__.Wolf object at 0x000001E7048D6588>) called, returned13.277006957031356
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6550><__main__.Wolf object at 0x000001E7048D6588>) called, returned14.450348633066703
+DEBUG:root:wolf_move(1<__main__.Sheep object at 0x000001E7048D63C8><__main__.Wolf object at 0x000001E7048D6588>) called
+INFO:root:Turn number: 39 Wolf position: 5.435424535133725, -9.629799000214046 Number of living sheep:6 Dead sheep in this round: none
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D61D0><__main__.Wolf object at 0x000001E7048D6588>) called, returned16.88682066520611
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D60F0><__main__.Wolf object at 0x000001E7048D6588>) called, returned7.646941157049961
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6390><__main__.Wolf object at 0x000001E7048D6588>) called, returned17.510548134555535
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D63C8><__main__.Wolf object at 0x000001E7048D6588>) called, returned1.1620598766836372
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6400><__main__.Wolf object at 0x000001E7048D6588>) called, returned13.976532287532123
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6550><__main__.Wolf object at 0x000001E7048D6588>) called, returned14.99146092760484
+DEBUG:root:wolf_move(1<__main__.Sheep object at 0x000001E7048D63C8><__main__.Wolf object at 0x000001E7048D6588>) called
+INFO:root:Turn number: 40 Wolf position: 6.420205732751783, -9.803597713724656 Number of living sheep:6 Dead sheep in this round: none
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D61D0><__main__.Wolf object at 0x000001E7048D6588>) called, returned17.101681044884522
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D60F0><__main__.Wolf object at 0x000001E7048D6588>) called, returned7.302779012933823
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6390><__main__.Wolf object at 0x000001E7048D6588>) called, returned18.98474492054482
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D63C8><__main__.Wolf object at 0x000001E7048D6588>) called, returned0.49809397261100463
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6400><__main__.Wolf object at 0x000001E7048D6588>) called, returned14.12813976875878
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6550><__main__.Wolf object at 0x000001E7048D6588>) called, returned15.882318475385025
+INFO:root:Turn number: 41 Wolf position: 6.57979925219813, -9.33176351180396 Number of living sheep:6 Dead sheep in this round: 7
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D61D0><__main__.Wolf object at 0x000001E7048D6588>) called, returned16.1526239463149
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D60F0><__main__.Wolf object at 0x000001E7048D6588>) called, returned6.3430657822494165
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6390><__main__.Wolf object at 0x000001E7048D6588>) called, returned19.14597177371168
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6400><__main__.Wolf object at 0x000001E7048D6588>) called, returned13.152890408924417
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6550><__main__.Wolf object at 0x000001E7048D6588>) called, returned15.33848596089846
+DEBUG:root:wolf_move(1<__main__.Sheep object at 0x000001E7048D60F0><__main__.Wolf object at 0x000001E7048D6588>) called
+INFO:root:Turn number: 42 Wolf position: 6.499413021107477, -8.33499972140473 Number of living sheep:5 Dead sheep in this round: none
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D61D0><__main__.Wolf object at 0x000001E7048D6588>) called, returned14.656881384872786
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D60F0><__main__.Wolf object at 0x000001E7048D6588>) called, returned5.326240985229649
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6390><__main__.Wolf object at 0x000001E7048D6588>) called, returned18.938888923931902
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6400><__main__.Wolf object at 0x000001E7048D6588>) called, returned12.65795902575501
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6550><__main__.Wolf object at 0x000001E7048D6588>) called, returned14.83758405682999
+DEBUG:root:wolf_move(1<__main__.Sheep object at 0x000001E7048D60F0><__main__.Wolf object at 0x000001E7048D6588>) called
+INFO:root:Turn number: 43 Wolf position: 6.512647698151009, -7.3350873035782715 Number of living sheep:5 Dead sheep in this round: none
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D61D0><__main__.Wolf object at 0x000001E7048D6588>) called, returned13.171189354915327
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D60F0><__main__.Wolf object at 0x000001E7048D6588>) called, returned4.361607211170306
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6390><__main__.Wolf object at 0x000001E7048D6588>) called, returned18.23820171244811
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6400><__main__.Wolf object at 0x000001E7048D6588>) called, returned12.157872056093291
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6550><__main__.Wolf object at 0x000001E7048D6588>) called, returned14.358307167382407
+DEBUG:root:wolf_move(1<__main__.Sheep object at 0x000001E7048D60F0><__main__.Wolf object at 0x000001E7048D6588>) called
+INFO:root:Turn number: 44 Wolf position: 6.640411702398078, -6.343282706281629 Number of living sheep:5 Dead sheep in this round: none
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D61D0><__main__.Wolf object at 0x000001E7048D6588>) called, returned12.702898374687642
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D60F0><__main__.Wolf object at 0x000001E7048D6588>) called, returned2.8664168496309026
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6390><__main__.Wolf object at 0x000001E7048D6588>) called, returned18.68311833103658
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6400><__main__.Wolf object at 0x000001E7048D6588>) called, returned11.663612911404986
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6550><__main__.Wolf object at 0x000001E7048D6588>) called, returned13.303690457177053
+DEBUG:root:wolf_move(1<__main__.Sheep object at 0x000001E7048D60F0><__main__.Wolf object at 0x000001E7048D6588>) called
+INFO:root:Turn number: 45 Wolf position: 6.790247689463337, -5.354571840062298 Number of living sheep:5 Dead sheep in this round: none
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D61D0><__main__.Wolf object at 0x000001E7048D6588>) called, returned11.674188688475324
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D60F0><__main__.Wolf object at 0x000001E7048D6588>) called, returned1.8584551233878273
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6390><__main__.Wolf object at 0x000001E7048D6588>) called, returned18.674265815625596
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6400><__main__.Wolf object at 0x000001E7048D6588>) called, returned11.173621252062748
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6550><__main__.Wolf object at 0x000001E7048D6588>) called, returned11.915644527909967
+DEBUG:root:wolf_move(1<__main__.Sheep object at 0x000001E7048D60F0><__main__.Wolf object at 0x000001E7048D6588>) called
+INFO:root:Turn number: 46 Wolf position: 6.6716849185428035, -4.361625280900303 Number of living sheep:5 Dead sheep in this round: none
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D61D0><__main__.Wolf object at 0x000001E7048D6588>) called, returned10.753974702498674
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D60F0><__main__.Wolf object at 0x000001E7048D6588>) called, returned1.3562246347245501
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6390><__main__.Wolf object at 0x000001E7048D6588>) called, returned18.52969568016224
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6400><__main__.Wolf object at 0x000001E7048D6588>) called, returned10.681610033121384
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6550><__main__.Wolf object at 0x000001E7048D6588>) called, returned11.102888872031759
+DEBUG:root:wolf_move(1<__main__.Sheep object at 0x000001E7048D60F0><__main__.Wolf object at 0x000001E7048D6588>) called
+INFO:root:Turn number: 47 Wolf position: 6.5966377504455656, -3.364445295862203 Number of living sheep:5 Dead sheep in this round: none
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D61D0><__main__.Wolf object at 0x000001E7048D6588>) called, returned10.251452153728355
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D60F0><__main__.Wolf object at 0x000001E7048D6588>) called, returned0.5917451650348217
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6390><__main__.Wolf object at 0x000001E7048D6588>) called, returned17.941620216124534
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6400><__main__.Wolf object at 0x000001E7048D6588>) called, returned9.68755847000709
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6550><__main__.Wolf object at 0x000001E7048D6588>) called, returned9.688554489118502
+INFO:root:Turn number: 48 Wolf position: 7.069904100403015, -3.009225219937374 Number of living sheep:5 Dead sheep in this round: 2
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D61D0><__main__.Wolf object at 0x000001E7048D6588>) called, returned10.489807075660545
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6390><__main__.Wolf object at 0x000001E7048D6588>) called, returned18.92292560465238
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6400><__main__.Wolf object at 0x000001E7048D6588>) called, returned8.860454362573378
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6550><__main__.Wolf object at 0x000001E7048D6588>) called, returned10.018025323581641
+DEBUG:root:wolf_move(1<__main__.Sheep object at 0x000001E7048D6400><__main__.Wolf object at 0x000001E7048D6588>) called
+INFO:root:Turn number: 49 Wolf position: 6.984717786784079, -2.0128601804202217 Number of living sheep:4 Dead sheep in this round: none
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D61D0><__main__.Wolf object at 0x000001E7048D6588>) called, returned9.016054870385721
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6390><__main__.Wolf object at 0x000001E7048D6588>) called, returned18.398207232001177
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6400><__main__.Wolf object at 0x000001E7048D6588>) called, returned8.358745402731625
+DEBUG:root:euclidean(<__main__.Sheep object at 0x000001E7048D6550><__main__.Wolf object at 0x000001E7048D6588>) called, returned8.65274960920067
+DEBUG:root:wolf_move(1<__main__.Sheep object at 0x000001E7048D6400><__main__.Wolf object at 0x000001E7048D6588>) called
+INFO:root:Turn number: 50 Wolf position: 6.904609696603621, -1.0160739977874371 Number of living sheep:4 Dead sheep in this round: none
