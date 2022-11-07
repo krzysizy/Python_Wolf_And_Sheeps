@@ -3,7 +3,7 @@ import os
 import random
 import math
 import json
-from itertools import count
+import argparse
 
 
 class Sheep:
@@ -51,7 +51,7 @@ class Wolf:
 
 def sheep_setup(sheep_num, init_pos_limit, sheep_move_dist):
     sheep = []
-    for i in range(1, sheep_num +1):
+    for i in range(1, sheep_num + 1):
         sheep.append(Sheep(i, random.uniform(-init_pos_limit, init_pos_limit),
                            random.uniform(-init_pos_limit, init_pos_limit),
                            sheep_move_dist))
@@ -122,7 +122,7 @@ def csv_export(round_no, alive_sheep_no, filename):
     csv_file.close()
 
 
-def simulation(rounds, sheep_num, init_pos_limit, sheep_move_dist, wolf_move_dist):
+def simulation(rounds, sheep_num, init_pos_limit, sheep_move_dist, wolf_move_dist, wait):
     sheep = sheep_setup(sheep_num, init_pos_limit, sheep_move_dist)
     wolf = Wolf(0.0, 0.0, wolf_move_dist)
     round_num = 1
@@ -139,7 +139,34 @@ def simulation(rounds, sheep_num, init_pos_limit, sheep_move_dist, wolf_move_dis
             print("Sheep:", nearest.id,  "was eaten by wolf")
         else:
             print("Sheep:", nearest.id, "was chases by wolf")
+        if wait:
+            input("Press a key to continue...")
         round_num += 1
 
 
-simulation(50, 15, 10, 0.5, 1.0)
+def main():
+    rounds = 50
+    sheep_num = 15
+    wolf_move_dist = 1
+    init_pos_limit = 10.0
+    sheep_move_dist = 0.5
+    wait = False
+    directory = None
+    parser = argparse.ArgumentParser()
+    parser.add_argument('-c', '--config', help="set config file", action='store', dest='config_file', metavar='FILE')
+    parser.add_argument('-d', '--dir', help="set directory to save files", action='store',
+                        dest='directory', default=os.getcwd(), metavar='DIR')
+    parser.add_argument('-l', '--log', action='store', help="choose level of event logs",
+                        dest='log_lvl', metavar='LEVEL')
+    parser.add_argument('-r', '--rounds', help="choose for how many rounds simulation goes", type=int, dest='rounds',
+                        default=50, metavar='NUM')
+    parser.add_argument('-s', '--sheep', help="choose how many sheep take part in simulation", type=int,
+                        dest='sheep_num', default=15, metavar='NUM')
+    parser.add_argument('-w', '--wait', help="choose do you want stop simulation each round",
+                        action='store_true')
+    args = parser.parse_args()
+    simulation(rounds, sheep_num, init_pos_limit, sheep_move_dist, wolf_move_dist, wait)
+
+
+if __name__ == "__main__":
+    main()
