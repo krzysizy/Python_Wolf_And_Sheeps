@@ -1,9 +1,11 @@
 import csv
+import logging
 import os
 import random
 import math
 import json
 import argparse
+import configparser
 
 
 class Sheep:
@@ -136,12 +138,31 @@ def simulation(rounds, sheep_num, init_pos_limit, sheep_move_dist, wolf_move_dis
               "\nWolf position:", round(wolf.x, 3), ",", round(wolf.y, 3),
               "\nAlive sheep number:", alive_sheep(sheep))
         if is_sheep_caught:
-            print("Sheep:", nearest.id,  "was eaten by wolf")
+            print("Sheep:", nearest.id, "was eaten by wolf")
         else:
             print("Sheep:", nearest.id, "was chases by wolf")
         if wait:
             input("Press a key to continue...")
         round_num += 1
+
+
+def get_config_info(file):
+    config = configparser.ConfigParser()
+    config.read(file)
+    initPosLimit = float(config.get('Terrain', 'InitPosLimit'))
+    wolf_move_dist = float(config.get('Movement', 'WolfMoveDist'))
+    sheep_move_dist = float(config.get('Movement', 'SheepMoveDist'))
+    if initPosLimit < 0 or wolf_move_dist < 0 or sheep_move_dist < 0:
+        raise ValueError('Negative value!')
+    return initPosLimit, wolf_move_dist, sheep_move_dist
+
+
+def is_greater_than_zero(value):
+    if value.isdigit():
+        value = int(value)
+    else:
+        raise argparse.ArgumentTypeError("Cannot convert value %s to positive int!" % value)
+    return value
 
 
 def main():
@@ -158,13 +179,36 @@ def main():
                         dest='directory', default=os.getcwd(), metavar='DIR')
     parser.add_argument('-l', '--log', action='store', help="choose level of event logs",
                         dest='log_lvl', metavar='LEVEL')
-    parser.add_argument('-r', '--rounds', help="choose for how many rounds simulation goes", type=int, dest='rounds',
-                        default=50, metavar='NUM')
-    parser.add_argument('-s', '--sheep', help="choose how many sheep take part in simulation", type=int,
-                        dest='sheep_num', default=15, metavar='NUM')
+    parser.add_argument('-r', '--rounds', help="choose for how many rounds simulation should goes", nargs='?',
+                        type=is_greater_than_zero, dest='rounds', default=50, metavar='NUM')
+    parser.add_argument('-s', '--sheep', help="choose how many sheep take part in simulation", nargs='?',
+                        type=is_greater_than_zero, dest='sheep_num', default=15, metavar='NUM')
     parser.add_argument('-w', '--wait', help="choose do you want stop simulation each round",
                         action='store_true')
     args = parser.parse_args()
+    if args.config_file:
+        init_pos_limit, wolf_move_dist, sheep_move_dist = get_config_info(args.config_file)
+    if args.directory:
+        directory = args.directory
+    if args.log_lvl:
+        if args.log_lvl == "DEBUG":
+            lvl = logging.DEBUG
+        elif args.log_lvl == "INFO":
+            lvl = logging.INFO
+        elif args.log_lvl == "WARNING":
+            lvl = logging.WARNING
+        elif args.log_lvl == "ERROR":
+            lvl = logging.ERROR
+        elif args.log_lvl == "CRITICAL":
+            lvl = logging.CRITICAL
+        else:
+            raise ValueError("Invalid log level!")
+    if args.rounds:
+        rounds = args.rounds
+    if args.sheep_num:
+        sheep_num = args.sheep_num
+    if args.wait:
+        wait = args.wait
     simulation(rounds, sheep_num, init_pos_limit, sheep_move_dist, wolf_move_dist, wait)
 
 
