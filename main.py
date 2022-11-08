@@ -138,9 +138,14 @@ def simulation(rounds, sheep_num, init_pos_limit, sheep_move_dist, wolf_move_dis
               "\nWolf position:", round(wolf.x, 3), ",", round(wolf.y, 3),
               "\nAlive sheep number:", alive_sheep(sheep))
         if is_sheep_caught:
+            additional_info = str("Sheep: " + str(nearest.id) + " was eaten by wolf")
             print("Sheep:", nearest.id, "was eaten by wolf")
         else:
+            additional_info = str("Sheep: " + str(nearest.id) + " was chases by wolf")
             print("Sheep:", nearest.id, "was chases by wolf")
+        logging.info("Round: " + str(round_num) +
+                     ", Wolf position: " + str(round(wolf.x, 3)) + ", " + str(round(wolf.y, 3)) +
+                     ", Alive sheep number: " + str(alive_sheep(sheep)) + ", " + additional_info)
         if wait:
             input("Press a key to continue...")
         round_num += 1
@@ -171,8 +176,10 @@ def check_path(directory):
            os.mkdir(path)
     return path
 
+
 def create_file_path(path, filename):
     return os.path.join(path, filename)
+
 
 def main():
     rounds = 50
@@ -195,10 +202,6 @@ def main():
     parser.add_argument('-w', '--wait', help="choose do you want stop simulation each round",
                         action='store_true')
     args = parser.parse_args()
-    if args.config_file:
-        init_pos_limit, wolf_move_dist, sheep_move_dist = get_config_info(args.config_file)
-    if args.directory:
-        directory = args.directory
     if args.log_lvl:
         if args.log_lvl == "DEBUG":
             lvl = logging.DEBUG
@@ -212,6 +215,12 @@ def main():
             lvl = logging.CRITICAL
         else:
             raise ValueError("Invalid log level!")
+        logging.basicConfig(level=lvl, filename="chase.log", filemode='w')
+        logging.debug("logging config")
+    if args.config_file:
+        init_pos_limit, wolf_move_dist, sheep_move_dist = get_config_info(args.config_file)
+    if args.directory:
+        directory = args.directory
     if args.rounds:
         rounds = args.rounds
     if args.sheep_num:
