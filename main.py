@@ -62,6 +62,8 @@ def sheep_setup(sheep_num, init_pos_limit, sheep_move_dist):
 
 def euclidean_dist(x1, y1, x2, y2):
     euclidean_distance = math.sqrt(((x1 - x2) ** 2) + ((y1 - y2) ** 2))
+    logging.debug("euclidean_dist(" + str(x1) + ", " + str(y1) + str(x2) + ", " + str(y2)
+                  + "), return: " + str(euclidean_distance))
     return euclidean_distance
 
 
@@ -75,6 +77,7 @@ def nearest_sheep(flock_of_sheep, wolf):
         if flock_of_sheep[i].alive_or_dead:
             if euclidean_dist(flock_of_sheep[i].x, flock_of_sheep[i].y, wolf.x, wolf.y) <= nearest_dist:
                 nearest = flock_of_sheep[i]
+    logging.debug("nearest_sheep(" + str(flock_of_sheep) + ", " + str(wolf) + "), return: " + str(nearest))
     return nearest
 
 
@@ -82,6 +85,7 @@ def sheep_moves(sheep):
     for i in sheep:
         if i.alive_or_dead:
             i.move()
+    logging.debug("sheep_moves(" + str(sheep) + "), return: ")
 
 
 def alive_sheep(sheep):
@@ -89,6 +93,7 @@ def alive_sheep(sheep):
     for i in sheep:
         if i.alive_or_dead:
             counter += 1
+    logging.debug("alive_sheep(" + str(sheep) + "), return: " + str(counter))
     return counter
 
 
@@ -108,6 +113,8 @@ def json_export(sheep, wolf, round_num, filename):
     else:
         f = open(filename, "a")
     f.write(json.dumps(dictionary, indent=4))
+    logging.debug("json_export(" + str(sheep) + ", " + str(wolf) + ", " + str(round_num) + ", " + filename
+                  + "), return: ")
     f.close()
 
 
@@ -121,6 +128,7 @@ def csv_export(round_no, alive_sheep_no, filename):
         csv_file = open(filename, "a", newline='')
         writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
     writer.writerow({'round_no': round_no, 'alive_sheep_no': alive_sheep_no})
+    logging.debug("csv_export(" + str(round_no) + ", " + str(alive_sheep_no) + ", " + filename + "), return: ")
     csv_file.close()
 
 
@@ -158,7 +166,9 @@ def get_config_info(file):
     wolf_move_dist = float(config.get('Movement', 'WolfMoveDist'))
     sheep_move_dist = float(config.get('Movement', 'SheepMoveDist'))
     if initPosLimit < 0 or wolf_move_dist < 0 or sheep_move_dist < 0:
+        logging.error("Not positive number passed as argument")
         raise ValueError('Negative value!')
+    logging.debug("get_config_info( " + str(file) + " ) called, returned: " + str(initPosLimit) + ", " + str(wolf_move_dist) + ", " + str(sheep_move_dist))
     return initPosLimit, wolf_move_dist, sheep_move_dist
 
 
