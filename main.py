@@ -36,7 +36,7 @@ class Wolf:
         self.move_dist = move_dist
 
     def move(self, nearest):
-        if nearest is not None:
+        if not (nearest is None):
             dist_of_nearest_sheep = euclidean_dist(nearest.x, nearest.y, self.x, self.y)
             if dist_of_nearest_sheep > self.move_dist:
                 x_an = self.move_dist * ((nearest.x - self.x) / dist_of_nearest_sheep)
@@ -57,6 +57,8 @@ def sheep_setup(sheep_num, init_pos_limit, sheep_move_dist):
         sheep.append(Sheep(i, random.uniform(-init_pos_limit, init_pos_limit),
                            random.uniform(-init_pos_limit, init_pos_limit),
                            sheep_move_dist))
+    logging.debug("euclidean_dist(" + str(sheep_num) + ", " + str(init_pos_limit) + str(sheep_move_dist) + ", "
+                  + "), return: " + str(sheep))
     return sheep
 
 
@@ -133,6 +135,7 @@ def csv_export(round_no, alive_sheep_no, filename):
 
 
 def simulation(rounds, sheep_num, init_pos_limit, sheep_move_dist, wolf_move_dist, wait, directory):
+    path = get_path(directory)
     sheep = sheep_setup(sheep_num, init_pos_limit, sheep_move_dist)
     wolf = Wolf(0.0, 0.0, wolf_move_dist)
     round_num = 1
@@ -140,8 +143,8 @@ def simulation(rounds, sheep_num, init_pos_limit, sheep_move_dist, wolf_move_dis
         sheep_moves(sheep)
         nearest = nearest_sheep(sheep, wolf)
         is_sheep_caught = wolf.move(nearest)
-        json_export(sheep, wolf, round_num, create_file_path(directory, 'pos.json'))
-        csv_export(round_num, alive_sheep(sheep), create_file_path(directory, 'alive.csv'))
+        json_export(sheep, wolf, round_num, create_file_path(path, 'pos.json'))
+        csv_export(round_num, alive_sheep(sheep), create_file_path(path, 'alive.csv'))
         print("Round:", round_num,
               "\nWolf position:", round(wolf.x, 3), ",", round(wolf.y, 3),
               "\nAlive sheep number:", alive_sheep(sheep))
@@ -180,14 +183,18 @@ def is_greater_than_zero(value):
     return value
 
 
-def check_path(directory):
-    path = os.path.join(os.getcwd(), directory)
-    if not os.path.exists(path):
-           os.mkdir(path)
+def get_path(directory):
+    path = os.getcwd()
+    if not (directory is None):
+        path = os.path.join(path, directory)
+        if not os.path.exists(path):
+            os.mkdir(path)
+        logging.debug("get_path(" + directory + "), return: " + str(path))
     return path
 
 
 def create_file_path(path, filename):
+    logging.debug("create_file_path(" + path + "," + filename + "), return: " + str(path))
     return os.path.join(path, filename)
 
 
@@ -198,11 +205,11 @@ def main():
     init_pos_limit = 10.0
     sheep_move_dist = 0.5
     wait = False
-    directory = os.getcwd()
+    directory = None
     parser = argparse.ArgumentParser()
     parser.add_argument('-c', '--config', help="set config file", action='store', dest='config_file', metavar='FILE')
     parser.add_argument('-d', '--dir', help="set directory to save files", action='store',
-                        type=check_path, dest='directory', metavar='DIR')
+                        dest='directory', metavar='DIR')
     parser.add_argument('-l', '--log', action='store', help="choose level of event logs",
                         dest='log_lvl', metavar='LEVEL')
     parser.add_argument('-r', '--rounds', help="choose for how many rounds simulation should goes", nargs='?',
